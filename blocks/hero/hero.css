@@ -3,6 +3,9 @@ h1{
   font-size: 24px;
   font-weight: 700;
 }
+p{
+  color:white;
+}
 .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
