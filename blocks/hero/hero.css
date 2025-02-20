@@ -1,3 +1,8 @@
+h1{
+  color:white;
+  font-size: 24px;
+  font-weight: 700;
+}
 .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
