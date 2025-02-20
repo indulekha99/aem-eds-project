@@ -4,4 +4,3 @@ export default function decorate(block) {
   block.innerHTML = '';
   block.append(h1);
 }
-  
