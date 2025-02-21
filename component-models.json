@@ -195,7 +195,14 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
-      }
+      },
+      {
+        "component": "custombutton",
+        "valueType": "string",
+        "name": "ctaText",
+        "label": "Button Text",
+        "value": ""
+      },
     ]
   },
   {
@@ -210,6 +217,16 @@
   },
   {
     "id": "demo",
+    "fields": [
+      {
+        "component": "text",
+        "name": "text",
+        "label": "Text"
+      }
+    ]
+  },
+  {
+    "id": "custombutton",
     "fields": [
       {
         "component": "text",
