@@ -184,24 +184,17 @@
       },
       {
         "component": "richtext",
-        "name": "text",
+        "name": "texttwo",
         "value": "",
         "label": "Text",
         "valueType": "string"
       },
       {
         "component": "richtext",
-        "name": "text",
+        "name": "textthree",
         "value": "",
         "label": "Text",
         "valueType": "string"
-      },
-      {
-        "component": "custombutton",
-        "valueType": "string",
-        "name": "ctaText",
-        "label": "Button Text",
-        "value": ""
       }
     ]
   },
