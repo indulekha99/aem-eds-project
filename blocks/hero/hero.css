@@ -9,6 +9,12 @@ p{
   color:white;
   font-size: 16px;
 }
+button{
+ padding: 12px;
+ background-color: rgb(129, 168, 155);
+ border:1px solid black;
+ color:black;
+}
 .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
@@ -20,12 +26,12 @@ p{
   min-height: 300px;
 }
 
-.hero h1 {
+/* .hero h1 {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   color: var(--background-color);
-}
+} */
 
 .hero picture {
   position: absolute;
