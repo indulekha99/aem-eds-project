@@ -195,6 +195,12 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "aem-content",
+        "label": "Button",
+        "name": "buttonHero",
+        "valueType": "string"
       }
     ]
   },
