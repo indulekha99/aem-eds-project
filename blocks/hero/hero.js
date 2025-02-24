@@ -1,7 +1,5 @@
+import searchIcon from '../../icons/search.svg';
 export default function decorate(block) {
-    // const btn = getElementsByClassName("button")
-    // btn[0].textContent = "Primary";
-    // block.append(btn);
 
     const header = document.createElement('div');
     header.classList.add('header');
@@ -15,12 +13,17 @@ export default function decorate(block) {
     })
     header.appendChild(headerFirstButton);
 
+    const svgElement = document.createElement('div');
+    svgElement.innerHTML = searchIcon;
+
     const headerSecondButton = document.createElement('button');
-    headerSecondButton.textContent = "icons";
+    // headerSecondButton.textContent = "icons";
     headerSecondButton.classList.add('header-button');
     headerSecondButton.addEventListener('click',()=>{
       alert('click event');
     })
+    headerSecondButton.appendChild(svgElement);
+    
     header.appendChild(headerSecondButton);
 
     block.appendChild(header);
