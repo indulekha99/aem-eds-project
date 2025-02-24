@@ -13,8 +13,7 @@ export default function decorate(block) {
     })
     header.appendChild(headerFirstButton);
 
-    const svgElement = document.createElement('div');
-    svgElement.innerHTML = searchIcon;
+   
 
     const headerSecondButton = document.createElement('button');
     // headerSecondButton.textContent = "icons";
@@ -22,8 +21,11 @@ export default function decorate(block) {
     headerSecondButton.addEventListener('click',()=>{
       alert('click event');
     })
+    const svgElement = document.createElement('img');
+    svgElement.src=searchIcon;
+    svgElement.alt='icon';
     headerSecondButton.appendChild(svgElement);
-    
+
     header.appendChild(headerSecondButton);
 
     block.appendChild(header);
