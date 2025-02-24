@@ -1,4 +1,4 @@
 export default function decorate(block) {
-    const btn = getElementsByClassName("button")
-    btn.innerHTML = "Primary";
+    const btn = getElementsByName("buttonHero")
+    btn[0].innerHTML = "Primary";
   } 
