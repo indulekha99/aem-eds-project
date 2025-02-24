@@ -21,10 +21,10 @@ export default function decorate(block) {
     headerSecondButton.addEventListener('click',()=>{
       alert('click event');
     })
-    const svgElement = document.createElement('img');
-    svgElement.src=searchIcon;
-    svgElement.alt='icon';
-    headerSecondButton.appendChild(svgElement);
+    // const svgElement = document.createElement('img');
+    // svgElement.src=searchIcon;
+    // svgElement.alt='icon';
+    // headerSecondButton.appendChild(svgElement);
 
     header.appendChild(headerSecondButton);
 
