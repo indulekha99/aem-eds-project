@@ -3,13 +3,27 @@ export default function decorate(block) {
     // btn[0].textContent = "Primary";
     // block.append(btn);
 
-    const headerButton = document.createElement('button');
+    const header = document.createElement('div');
+    header.classList.add('header');
+
+
+    const headerFirstButton = document.createElement('button');
     headerButton.textContent = "Lilly Medicine";
     headerButton.classList.add('header-button');
     headerButton.addEventListener('click',()=>{
       alert('click event');
     })
-    block.appendChild(headerButton);
+    header.appendChild(headerFirstButton);
+
+    const headerSecondButton = document.createElement('button');
+    headerButton.textContent = "icons";
+    headerButton.classList.add('header-button');
+    headerButton.addEventListener('click',()=>{
+      alert('click event');
+    })
+    header.appendChild(headerSecondButton);
+
+    block.appendChild(header);
 
     const heading = document.createElement('h1');
     heading.textContent = "Headline about online pharmacy service";
@@ -27,6 +41,5 @@ export default function decorate(block) {
     customButton.addEventListener('click',()=>{
       alert('click event');
     })
-
     block.appendChild(customButton);
   } 
