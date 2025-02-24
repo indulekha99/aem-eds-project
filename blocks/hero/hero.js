@@ -1,4 +1,4 @@
-// import searchIcon from '../../icons/search.svg';
+import searchIcon from '../../icons/search.svg';
 export default function decorate(block) {
 
     const header = document.createElement('div');
@@ -21,10 +21,10 @@ export default function decorate(block) {
     headerSecondButton.addEventListener('click',()=>{
       alert('click event');
     })
-    // const svgElement = document.createElement('img');
-    // svgElement.src=searchIcon;
-    // svgElement.alt='icon';
-    // headerSecondButton.appendChild(svgElement);
+    const svgElement = document.createElement('img');
+    svgElement.src = searchIcon;
+    svgElement.alt = 'icon';
+    headerSecondButton.appendChild(svgElement);
 
     header.appendChild(headerSecondButton);
 
@@ -37,7 +37,7 @@ export default function decorate(block) {
 
     const subHeading = document.createElement('p');
     subHeading.textContent = "LilyDirect makes it simple to get authentic Lilly medicines directly to you, if prescribed.";
-    // heading.classList.add('custom-button');
+    // subHeading.classList.add('custom-button');
     block.appendChild(subHeading);
 
     const customButton = document.createElement('button');
