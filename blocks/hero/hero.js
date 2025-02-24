@@ -1,4 +1,4 @@
-import searchIcon from '../../icons/search.svg';
+// import searchIcon from '../../icons/search.svg';
 export default function decorate(block) {
 
     const header = document.createElement('div');
@@ -16,7 +16,7 @@ export default function decorate(block) {
    
 
     const headerSecondButton = document.createElement('button');
-    // headerSecondButton.textContent = "icons";
+    headerSecondButton.textContent = "icons";
     headerSecondButton.classList.add('header-button');
     headerSecondButton.addEventListener('click',()=>{
       alert('click event');
