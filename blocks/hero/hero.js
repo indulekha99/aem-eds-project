@@ -16,15 +16,15 @@ export default function decorate(block) {
    
 
     const headerSecondButton = document.createElement('button');
-    headerSecondButton.textContent = "icons";
+    headerSecondButton.innerHTML = searchIcon;
     headerSecondButton.classList.add('header-button');
     headerSecondButton.addEventListener('click',()=>{
       alert('click event');
     })
-    const svgElement = document.createElement('img');
-    svgElement.src = searchIcon;
-    svgElement.alt = 'icon';
-    headerSecondButton.appendChild(svgElement);
+    // const svgElement = document.createElement('img');
+    // svgElement.src = searchIcon;
+    // svgElement.alt = 'icon';
+    // headerSecondButton.appendChild(svgElement);
 
     header.appendChild(headerSecondButton);
 
