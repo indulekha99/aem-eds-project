@@ -200,7 +200,10 @@
         "component": "aem-content",
         "label": "Button",
         "name": "buttonHero",
-        "valueType": "string"
+        "valueType": "string",
+        "properties":{
+          "text":"primary"
+        }
       }
     ]
   },
