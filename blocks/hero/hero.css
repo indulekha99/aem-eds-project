@@ -24,6 +24,16 @@
   font-weight: 400;
 }
 .hero .custom-button{
+  background-color: rgb(40, 40, 40,0.5);
+  color:white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  box-shadow: none;
+}
+.hero .header-button{
   background-color: #D31710;
   color:white;
   padding: 12px 24px;
