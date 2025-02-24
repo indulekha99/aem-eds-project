@@ -8,17 +8,17 @@ export default function decorate(block) {
 
 
     const headerFirstButton = document.createElement('button');
-    headerButton.textContent = "Lilly Medicine";
-    headerButton.classList.add('header-button');
-    headerButton.addEventListener('click',()=>{
+    headerFirstButton.textContent = "Lilly Medicine";
+    headerFirstButton.classList.add('header-button');
+    headerFirstButton.addEventListener('click',()=>{
       alert('click event');
     })
     header.appendChild(headerFirstButton);
 
     const headerSecondButton = document.createElement('button');
-    headerButton.textContent = "icons";
-    headerButton.classList.add('header-button');
-    headerButton.addEventListener('click',()=>{
+    headerSecondButton.textContent = "icons";
+    headerSecondButton.classList.add('header-button');
+    headerSecondButton.addEventListener('click',()=>{
       alert('click event');
     })
     header.appendChild(headerSecondButton);
